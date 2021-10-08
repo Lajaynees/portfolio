@@ -13,16 +13,16 @@ function handleLink() {
     const page = this.getAttribute('data-page')
     switch (page) {
         case 'homePage':
-            homePage.scrollView()
+            homePage.scrollIntoView()
             break;
         case 'aboutPage':
-            aboutPage.scrollView()
+            aboutPage.scrollIntoView()
             break;
         case 'contactPage':
-            contactPage.scrollView()
+            contactPage.scrollIntoView()
             break;
         case 'projectsPage':
-            projectsPage.scrollView()
+            projectsPage.scrollIntoView()
             break;
         default:
             break;
